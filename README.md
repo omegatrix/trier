@@ -1,24 +1,24 @@
-# trycatch
+# trier
 
 > Utility wrapper class to handle exceptions.
 
-[![PyPI version](https://badge.fury.io/py/trycatch.svg)](https://badge.fury.io/py/trycatch)
-[![trycatch CI](https://github.com/omegatrix/trycatch/actions/workflows/build.yaml/badge.svg)](https://github.com/omegatrix/trycatch/actions/workflows/build.yaml)
-[![codecov](https://codecov.io/gh/omegatrix/trycatch/branch/main/graph/badge.svg?token=2M0QOSUPM0)](https://codecov.io/gh/omegatrix/trycatch)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trycatch)
+[![PyPI version](https://badge.fury.io/py/trier.svg)](https://badge.fury.io/py/trier)
+[![trier CI](https://github.com/omegatrix/trier/actions/workflows/build.yaml/badge.svg)](https://github.com/omegatrix/trier/actions/workflows/build.yaml)
+[![codecov](https://codecov.io/gh/omegatrix/trier/branch/main/graph/badge.svg?token=2M0QOSUPM0)](https://codecov.io/gh/omegatrix/trier)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trier)
 
 ## Installation
-You can [install `trycatch` from PyPI](https://pypi.org/project/trycatch), with `pip`:
+You can [install `trier` from PyPI](https://pypi.org/project/trier), with `pip`:
 
 ```bash
-python -m pip install trycatch
+python -m pip install trier
 ```
 
 ## Example usage
-Instead of using `try except` block you could replace it with `trycatch`.
+Instead of using `try except` block you could replace it with `trier`.
 
 ```py
-from trycatch import Try
+from trier import Try
 
 err, val = Try(lambda: 10 / 0).catch(ZeroDivisionError)
 
@@ -34,7 +34,7 @@ if not err:
 
 Supports multiple exceptions.
 ```py
-from trycatch import Try
+from trier import Try
 
 err, file = Try(open, file="doenot_exist.txt").catch(FileNotFoundError, OSError)
 
@@ -48,7 +48,7 @@ Supports async error handling as well.
 ```py
 import asyncio
 from httpx import AsyncClient, HTTPStatusError, Response
-from trycatch import Try
+from trier import Try
 
 def raise_on_4xx_5xx(response):
     response.raise_for_status()

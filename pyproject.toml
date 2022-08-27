@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "trycatch"
+name = "trier"
 version = "1.0.0"
 description = "Utility wrapper to handle exceptions."
 authors = ["Arnold Anthonypillai <arnoldbronson16@gmail.com>"]
@@ -22,4 +22,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.scriv]
 format = "md"
-version = "literal: src/trycatch/__init__.py: __version__"
+version = "literal: src/trier/__init__.py: __version__"

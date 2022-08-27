@@ -4,7 +4,7 @@ from typing import Awaitable, NoReturn
 
 import pytest
 
-from trycatch import Try, __version__
+from trier import Try, __version__
 
 
 class CustomException(Exception):
