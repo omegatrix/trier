@@ -4,7 +4,7 @@
 `try except` wrapper.
 
 Example:
-    from typeguard import Try
+    from trycatch import Try
 """
 
 __version__ = "1.0.0"
@@ -52,7 +52,7 @@ class Try:
 
         Args:
             *exceptions (Type[Exception]): Variable length exceptions
-            to guard against.
+            to catch.
 
         Returns:
             If no exception occurs, a `Tuple` of `(None, Value)`
@@ -77,18 +77,18 @@ class Try:
         self,
         *exceptions: Type[Exception],
     ) -> Awaitable[Union[Tuple[Type[Exception], None], Tuple[None, T]]]:
-        """Catches provided exceptions if any occurs, Async version of `catch`.
+        """Catches provided exceptions if any occurs. Async version of `catch`.
 
         Args:
             *exceptions (Type[Exception]): Variable length exceptions
-            to guard against.
+            to catch.
 
         Returns:
             If no exception occurs, a `Tuple` of `(None, Value)`
             will be returned. Otherwise a `Tuple` of `(Exception, None)`
             will be returned. These can be accesses such as:
 
-            `err, val = await Try(fetch).async_guard(HttpError)`
+            `err, val = await Try(fetch).async_catch(HttpError)`
 
         Raises:
             TypeError: If no exceptions provided.

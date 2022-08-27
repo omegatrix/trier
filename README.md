@@ -4,7 +4,7 @@
 
 [![PyPI version](https://badge.fury.io/py/trycatch.svg)](https://badge.fury.io/py/trycatch)
 [![trycatch CI](https://github.com/omegatrix/trycatch/actions/workflows/build.yaml/badge.svg)](https://github.com/omegatrix/trycatch/actions/workflows/build.yaml)
-[![codecov](https://codecov.io/gh/omegatrix/trycatch/branch/main/graph/badge.svg?token=CFPSLDWJ0Q)](https://codecov.io/gh/omegatrix/trycatch)
+[![codecov](https://codecov.io/gh/omegatrix/trycatch/branch/main/graph/badge.svg?token=2M0QOSUPM0)](https://codecov.io/gh/omegatrix/trycatch)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trycatch)
 
 ## Installation
