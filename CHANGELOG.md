@@ -1,4 +1,11 @@
 
+<a id='changelog-1.0.1'></a>
+# 1.0.1 — 2022-08-27
+
+## Changed
+
+- Minor version bump to `1.0.1`.
+
 <a id='changelog-1.0.0'></a>
 # 1.0.0 — 2022-08-27
 
