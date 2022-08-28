@@ -69,4 +69,4 @@ asyncio.run(main())
 
 ## Changelog
 
-Refer to the [CHANGELOG.md](CHANGELOG.md) file.
+Refer to the [CHANGELOG.md](https://github.com/omegatrix/trier/blob/main/CHANGELOG.md) file.

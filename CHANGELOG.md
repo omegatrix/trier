@@ -1,3 +1,9 @@
+<a id='changelog-1.0.2'></a>
+# 1.0.2 — 2022-08-28
+
+## Fixed
+
+- `CHANGELOG` link in `README` file.
 
 <a id='changelog-1.0.1'></a>
 # 1.0.1 — 2022-08-27
@@ -12,7 +18,7 @@
 ## Added
 
 - Added class based `Try` error handler.
-- 100% code coverage.
+- `100%` code coverage.
 - Code coverage reporting to `tox`.
-- `CI` through `GitHub` action that runs `tox` automatically.
+- `CI` through `GitHub` action that runs build workflow.
 - `Codecov` integration.

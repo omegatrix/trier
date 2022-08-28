@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trier"
-version = "1.0.1"
+version = "1.0.2"
 description = "Utility wrapper to handle exceptions."
 authors = ["Arnold Anthonypillai <arnoldbronson16@gmail.com>"]
 readme = "README.md"
