@@ -7,6 +7,10 @@
 [![codecov](https://codecov.io/gh/omegatrix/trier/branch/main/graph/badge.svg?token=2M0QOSUPM0)](https://codecov.io/gh/omegatrix/trier)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/trier)
 
+## Supported Python versions
+`Python >= 3.8`
+
+
 ## Installation
 You can [install `trier` from PyPI](https://pypi.org/project/trier), with `pip`:
 
@@ -69,4 +73,8 @@ asyncio.run(main())
 
 ## Changelog
 
-Refer to the [CHANGELOG.md](https://github.com/omegatrix/trier/blob/main/CHANGELOG.md) file.
+Refer to the [CHANGELOG](https://github.com/omegatrix/trier/blob/main/CHANGELOG.md).
+
+## License
+
+MIT - See the [LICENSE](https://github.com/omegatrix/trier/blob/main/LICENSE) for more information.
