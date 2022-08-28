@@ -1,3 +1,11 @@
+
+<a id='changelog-1.0.3'></a>
+# 1.0.3 — 2022-08-28
+
+## Added
+
+- Supported Python versions and License sections to `README`.
+
 <a id='changelog-1.0.2'></a>
 # 1.0.2 — 2022-08-28
 
