@@ -1,5 +1,5 @@
 # .github/workflows/build.yaml
-name: trycatch CI
+name: trier CI
 
 on:
   push:
@@ -34,7 +34,7 @@ jobs:
         run: tox
 
       - name: Upload coverage to Codecov
-        # We only generate the coverage report in Python 3.9
+        # We only generate the coverage report in ubuntu latest os Python 3.9
         if: matrix.python-version == '3.9' && matrix.os == 'ubuntu-latest'
         uses: codecov/codecov-action@v2
         with:
