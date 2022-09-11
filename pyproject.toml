@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "trier"
-version = "1.0.3"
+version = "1.0.4"
 description = "Utility wrapper to handle exceptions."
 license = "MIT"
 authors = ["Arnold Anthonypillai <arnoldbronson16@gmail.com>"]
