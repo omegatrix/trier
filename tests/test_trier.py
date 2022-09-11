@@ -28,7 +28,7 @@ async def dummy_async_function() -> Awaitable[str]:
 
 
 def test_version():
-    assert __version__ == "1.0.3"
+    assert __version__ == "1.0.4"
 
 
 def test_trycatch():

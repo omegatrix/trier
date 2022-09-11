@@ -1,4 +1,12 @@
 
+<a id='changelog-1.0.4'></a>
+# 1.0.4 — 2022-09-11
+
+## Dependencies
+
+- Bump dev-dependency `virtualenv` from `20.16.3` to `20.16.4`.
+- Bump dev-dependency `pytest` from `7.1.2` to `7.1.3`.
+
 <a id='changelog-1.0.3'></a>
 # 1.0.3 — 2022-08-28
 
