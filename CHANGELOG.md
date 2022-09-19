@@ -1,4 +1,15 @@
 
+<a id='changelog-1.0.5'></a>
+# 1.0.5 — 2022-09-19
+
+## Dependencies
+
+- Bump `virtualenv` from `20.16.4` to `20.16.5`.
+- Bump `identify` from `2.5.3` to `2.5.5`.
+- Bump `certifi` from `2022.6.15` to `2022.9.14`.
+- Bump `tox` from `3.25.1` to `3.26.0`.
+- Bump `idna` from `3.3` to `3.4`.
+
 <a id='changelog-1.0.4'></a>
 # 1.0.4 — 2022-09-11
 
