@@ -7,7 +7,7 @@ Example:
     from trycatch import Try
 """
 
-__version__ = "1.0.4"
+__version__ = "1.0.5"
 
 from typing import Any, Awaitable, Callable, Tuple, Type, TypeVar, Union
 
