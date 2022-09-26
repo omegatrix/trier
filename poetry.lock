@@ -292,7 +292,7 @@ use_chardet_on_py3 = ["chardet (>=3.0.2,<6)"]
 
 [[package]]
 name = "scriv"
-version = "0.16.0"
+version = "0.17.0"
 description = "Scriv changelog management tool"
 category = "dev"
 optional = false
@@ -401,7 +401,7 @@ testing = ["coverage (>=6.2)", "coverage-enable-subprocess (>=1)", "flaky (>=3.7
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "313f034d56e6e55460f167175e4c11d4c5e6ba03854e1dacb54fa5342761cc74"
+content-hash = "d2e5dcde01d9128c365bb0e23fa0554fe13bdc59c8e570ab7e97408ea955b5a3"
 
 [metadata.files]
 attrs = [
@@ -633,8 +633,8 @@ requests = [
     {file = "requests-2.28.1.tar.gz", hash = "sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983"},
 ]
 scriv = [
-    {file = "scriv-0.16.0-py2.py3-none-any.whl", hash = "sha256:da9c4971bce08afa721c0bd98c1ee12a62999a104fb09a636ead5f242c821b2d"},
-    {file = "scriv-0.16.0.tar.gz", hash = "sha256:6e1e0118861ece421f8dd8ae6a3e2f054fa4fa14ad015040d22067b1e72fae56"},
+    {file = "scriv-0.17.0-py2.py3-none-any.whl", hash = "sha256:97fdaf0e987d9e3dcc4466e9999d51e414ddec44b6bd04d6241a09fb1c7968f3"},
+    {file = "scriv-0.17.0.tar.gz", hash = "sha256:8f23883ef83dfc50f09f76aef08ff3073f2752c7255db15d24cd8bfecc32379c"},
 ]
 setuptools = [
     {file = "setuptools-65.3.0-py3-none-any.whl", hash = "sha256:2e24e0bec025f035a2e72cdd1961119f557d78ad331bb00ff82efb2ab8da8e82"},
