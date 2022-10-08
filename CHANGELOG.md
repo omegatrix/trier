@@ -1,4 +1,15 @@
 
+<a id='changelog-1.0.6'></a>
+# 1.0.6 — 2022-10-08
+
+## Dependencies
+
+- Bump `scriv` from `0.16.0` to `0.17.0`.
+- Bump `certifi` from `2022.9.14` to `2022.9.24`.
+- Bump `setuptools` from `65.3.0` to `65.4.0`.
+- Bump `setuptools` from `65.4.0` to `65.4.1`.
+- Bump `coverage` from `6.4.4` to `6.5.0`.
+
 <a id='changelog-1.0.5'></a>
 # 1.0.5 — 2022-09-19
 
